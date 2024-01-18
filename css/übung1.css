@@ -1,0 +1,57 @@
+/* @font-face{
+    font-family: "banana";
+    src: url("../font/HappyMonkey-Regular.ttf");
+
+} */
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+body{
+    /* font-family: banana; */
+    font-family: 'Happy Monkey', system-ui;
+}
+.container {
+    width: 800px; 
+    margin: 0 auto;
+    box-shadow: 1px 5px 5px 2px, -1px 5px 5px 2px;
+    padding: 0 50px;
+    
+}
+
+header h1 {
+    text-align: center; color: #DB0038;
+}
+
+p {
+    /* text-align: center; */
+    color:  #707070;
+    
+}
+.hero {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.hero img{
+    width: 90%;
+    /* margin: 0 auto; */
+    
+}
+
+.hero h3 {
+    /* text-align: center; */
+    color: #474747;
+}
+
+
+
+.hero h2 {
+    color: #3998A3;
+    text-align: center;
+}
+.bewertung{
+    text-align: center;
+}
+.bewertung span {
+    /* text-align: center; */
+    color: #F4B400;
+    width: 25px;
+}
